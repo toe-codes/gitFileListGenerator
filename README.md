@@ -6,12 +6,10 @@ gitのリビジョン間における変更ファイル一覧をcsvファイル�
 
 ## 必要な動作環境
 
-- gitがインストールされていること
-- Rがインストールされていること
+- **git** : [Git - Gitのインストール](https://git-scm.com/book/ja/v1/%E4%BD%BF%E3%81%84%E5%A7%8B%E3%82%81%E3%82%8B-Git%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
+- **R** : [The Comprehensive R Archive Network](https://cran.r-project.org/)
 
-  - dplyrライブラリがインストールされていること
-
-- bashが使えること
+  - dplyrパッケージ: [dplyr](https://cran.r-project.org/web/packages/dplyr/README.html)
 
 ## 使い方
 
