@@ -26,8 +26,8 @@ colnames(df.lsFiles) <- c("path")
 df.result$status <- sub("M", "Modify", df.result$status)
 df.result$status <- sub("A", "Add", df.result$status)
 df.result$status <- sub("C", "Copy", df.result$status)
-df.result$status <- sub("A", "Rename", df.result$status)
-df.result$status <- sub("A", "Delete", df.result$status)
+df.result$status <- sub("R", "Rename", df.result$status)
+df.result$status <- sub("D", "Delete", df.result$status)
 
 # Change type
 df.result$path <- as.character(df.result$path)
